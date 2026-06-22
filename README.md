@@ -15,8 +15,6 @@ Stop paying expensive monthly SaaS subscriptions to protect your C# and WPF appl
 
 ## 🛠️ Architectural Defense Schematic
 
-![Raysonic Architecture](WhatsApp Image 2026-06-22 at 11.14.21.jpeg)
-
 Raysonic implements a unique layered security approach, embedding a high-performance **Unmanaged Native C++ core** underneath your **Managed .NET application**. This creates an impenetrable barrier that dynamic decompilers cannot traverse.
 
 ## 💻 Seamless Integration
