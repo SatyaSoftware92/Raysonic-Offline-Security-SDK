@@ -1,6 +1,6 @@
 # 🛡️ Raysonic Offline Security SDK
 
-!(WhatsApp Image 2026-06-22 at 11.14.19.jpeg)
+![Raysonic Banner](11632.jpg)
 
 Stop paying expensive monthly SaaS subscriptions to protect your C# and WPF applications. Raysonic adds an aggressive, Native C++ anti-tamper shield and 100% offline HWID licensing to your .NET desktop apps.
 
@@ -14,6 +14,7 @@ Stop paying expensive monthly SaaS subscriptions to protect your C# and WPF appl
 
 * **True Offline Architecture:** Verify licenses locally without pinging a third-party server. Perfect for POS systems and isolated industrial networks.
 * **Hardware-Locked (HWID):** Licenses are cryptographically bound via HMAC-SHA256 to your client's specific Motherboard and CPU IDs.
+  ![HWID Conceptual Diagram](11634.jpg)
 * **Native C++ Memory Shield:** Built-in heuristics instantly abort execution if reverse-engineering tools (like dnSpy, ILSpy, or x64dbg) are detected.
 * **White-Label Keygen:** Manage your clients privately. Generate unlimited `.lic` files using your standalone administrative tool.
 
@@ -21,7 +22,7 @@ Stop paying expensive monthly SaaS subscriptions to protect your C# and WPF appl
 
 ## 🛠️ Architectural Defense Schematic
 
-!(WhatsApp Image 2026-06-22 at 11.14.21.jpeg)
+![Raysonic Architecture](WhatsApp Image 2026-06-22 at 11.14.21.jpeg)
 
 Raysonic implements a unique layered security approach, embedding a high-performance **Unmanaged Native C++ core** underneath your **Managed .NET application**. This creates an impenetrable barrier that dynamic decompilers cannot traverse.
 
@@ -31,32 +32,19 @@ Raysonic implements a unique layered security approach, embedding a high-perform
 
 Integrating enterprise-grade security shouldn't take weeks. Open the included `Raysonic.ClientSim` solution file in Visual Studio to see the standard template. Protect your application with just a few lines of configuration:
 
-```csharp
-// Example integration from App.xaml.cs
-protected override void OnStartup(StartupEventArgs e)
-{
-    string clientSerialKey = "SATYA-1234-ABCD";
+![Integration Success](WhatsApp Image 2026-06-22 at 11.14.19.jpeg)
 
-    try
-    {
-        // 1. Activate the Native C++ Anti-Tamper Core & Validate Offline HWID
-        // bool isSafe = RaysonicGuard.InitializeSecurity(clientSerialKey);
+---
 
-        // 2. Launch your core application safely
-        // if (isSafe) { base.OnStartup(e); }
-    }
-    catch (Exception ex)
-    {
-        MessageBox.Show(ex.Message, "Security Triggered", MessageBoxButton.OK, MessageBoxImage.Error);
-        Environment.Exit(0);
-    }
-}
+## 📦 What's Inside the Premium Package?
 
-📦 What's Inside the Premium Package?
-​When you purchase the full SDK, you receive a production-ready, fully standalone distribution package:
-​01_Keygen_Tool: Your private desktop application to forge secure offline hardware licenses.
-​02_Integration_Libraries: Pre-compiled Raysonic.SDK.dll and the unmanaged Raysonic.Native.dll core shield.
-​03_Documentation: Comprehensive PDF guides covering advanced cryptography setup and anti-dumping configurations.
-​04_Sample_Project: Complete source code to test and deploy immediately.
-​👉 PURCHASE RAYSONIC SDK NOW ($19.00) 👈
-​Built for developers, by developers. Secure your intellectual property today.
+When you purchase the full SDK, you receive a production-ready, fully standalone distribution package:
+1. **01_Keygen_Tool:** Your private desktop application to forge secure offline hardware licenses.
+2. **02_Integration_Libraries:** Pre-compiled `Raysonic.SDK.dll` and the unmanaged `Raysonic.Native.dll` core shield.
+3. **03_Documentation:** Comprehensive PDF guides covering advanced cryptography setup and anti-dumping configurations.
+4. **04_Sample_Project:** Complete source code to test and deploy immediately.
+
+👉 **[PURCHASE RAYSONIC SDK NOW ($19.00)](https://lemonsqueezy.com)** 👈
+
+---
+*Built for developers, by developers. Secure your intellectual property today.*
