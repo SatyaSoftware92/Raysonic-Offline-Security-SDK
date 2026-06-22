@@ -1,24 +1,17 @@
 # 🛡️ Raysonic Offline Security SDK
 
-![Raysonic Banner](11632.jpg)
-
 Stop paying expensive monthly SaaS subscriptions to protect your C# and WPF applications. Raysonic adds an aggressive, Native C++ anti-tamper shield and 100% offline HWID licensing to your .NET desktop apps.
 
 **Pay once. Protect forever. Zero cloud dependencies.**
 
 👉 **[GET THE FULL SDK ON LEMON SQUEEZY](https://lemonsqueezy.com)** 👈
 
----
-
 ## 🚀 Key Features
 
 * **True Offline Architecture:** Verify licenses locally without pinging a third-party server. Perfect for POS systems and isolated industrial networks.
 * **Hardware-Locked (HWID):** Licenses are cryptographically bound via HMAC-SHA256 to your client's specific Motherboard and CPU IDs.
-  ![HWID Conceptual Diagram](11634.jpg)
 * **Native C++ Memory Shield:** Built-in heuristics instantly abort execution if reverse-engineering tools (like dnSpy, ILSpy, or x64dbg) are detected.
 * **White-Label Keygen:** Manage your clients privately. Generate unlimited `.lic` files using your standalone administrative tool.
-
----
 
 ## 🛠️ Architectural Defense Schematic
 
@@ -26,15 +19,9 @@ Stop paying expensive monthly SaaS subscriptions to protect your C# and WPF appl
 
 Raysonic implements a unique layered security approach, embedding a high-performance **Unmanaged Native C++ core** underneath your **Managed .NET application**. This creates an impenetrable barrier that dynamic decompilers cannot traverse.
 
----
-
 ## 💻 Seamless Integration
 
 Integrating enterprise-grade security shouldn't take weeks. Open the included `Raysonic.ClientSim` solution file in Visual Studio to see the standard template. Protect your application with just a few lines of configuration:
-
-![Integration Success](WhatsApp Image 2026-06-22 at 11.14.19.jpeg)
-
----
 
 ## 📦 What's Inside the Premium Package?
 
