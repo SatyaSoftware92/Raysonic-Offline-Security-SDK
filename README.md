@@ -29,7 +29,7 @@ When you purchase the full SDK, you receive a production-ready, fully standalone
 3. **03_Documentation:** Comprehensive PDF guides covering advanced cryptography setup and anti-dumping configurations.
 4. **04_Sample_Project:** Complete source code to test and deploy immediately.
 
-👉 **[PURCHASE RAYSONIC SDK NOW ($19.00)](https://lemonsqueezy.com)** 👈
+👉 **[PURCHASE RAYSONIC SDK NOW ($19.00)](https://satyasoftware.lemonsqueezy.com/checkout/buy/9a97c8b8-7df3-4496-9ae0-060c6aa68c9a)** 👈
 
 ---
 *Built for developers, by developers. Secure your intellectual property today.*
