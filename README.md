@@ -1,6 +1,6 @@
 # 🛡️ Raysonic Offline Security SDK
 
-![Raysonic Banner](10834.png)
+!(WhatsApp Image 2026-06-22 at 11.14.19.jpeg)
 
 Stop paying expensive monthly SaaS subscriptions to protect your C# and WPF applications. Raysonic adds an aggressive, Native C++ anti-tamper shield and 100% offline HWID licensing to your .NET desktop apps.
 
@@ -21,7 +21,7 @@ Stop paying expensive monthly SaaS subscriptions to protect your C# and WPF appl
 
 ## 🛠️ Architectural Defense Schematic
 
-![Raysonic Architecture](10835.png)
+!(WhatsApp Image 2026-06-22 at 11.14.21.jpeg)
 
 Raysonic implements a unique layered security approach, embedding a high-performance **Unmanaged Native C++ core** underneath your **Managed .NET application**. This creates an impenetrable barrier that dynamic decompilers cannot traverse.
 
