@@ -4,7 +4,7 @@ Stop paying expensive monthly SaaS subscriptions to protect your C# and WPF appl
 
 **Pay once. Protect forever. Zero cloud dependencies.**
 
-👉 **[GET THE FULL SDK ON LEMON SQUEEZY](https://lemonsqueezy.com)** 👈
+👉 **[GET THE FULL SDK ON LEMON SQUEEZY]([https://lemonsqueezy.com](https://satyasoftware.lemonsqueezy.com/checkout/buy/9a97c8b8-7df3-4496-9ae0-060c6aa68c9a))** 👈
 
 ## 🚀 Key Features
 
