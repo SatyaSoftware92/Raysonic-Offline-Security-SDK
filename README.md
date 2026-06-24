@@ -9,7 +9,7 @@ Raysonic adds an aggressive, Native C++ anti-tamper shield and 100% offline HWID
 ## 🚀 Key Features
 
 * **True Offline Architecture:** Verify licenses locally without pinging a third-party server. Perfect for POS systems and isolated industrial networks.
-* **Hardware-Locked (HWID):** Licenses are cryptographically bound via HMAC-SHA256 to your client's specific Motherboard and CPU IDs.
+* **Hardware-Locked (HWID):** Licenses are cryptographically to your client's specific Motherboard and CPU IDs.
 * **Native C++ Memory Shield:** Built-in heuristics instantly abort execution if reverse-engineering tools are detected.
 * **White-Label Keygen:** Manage your clients privately. Generate unlimited `.lic` files using your standalone administrative tool.
 
