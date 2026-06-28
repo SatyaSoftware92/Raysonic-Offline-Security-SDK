@@ -5,15 +5,15 @@ Raysonic Offline Security SDK is a lightweight native C++ security layer designe
 Built for C# developers, it adds advanced runtime protection while staying entirely in User Mode (Ring 3) eliminating the complexity and risks of kernel drivers.
 
 Key Features :
-✅ Native C++ Runtime Protection
+- Native C++ Runtime Protection
 A high-performance native engine continuously monitors application integrity with minimal performance impact.
-✅ Anti-Debugging
+- Anti-Debugging
 Detects common debugging techniques and monitors suspicious runtime behavior before sensitive operations continue.
-✅ Anti-Tamper Protection
+- Anti-Tamper Protection
 Helps identify unauthorized modifications to application memory and executable code.
-✅ API Monitoring
+- API Monitoring
 Uses low-level Windows API interaction to observe abnormal execution patterns and strengthen runtime security.
-✅ Offline HWID Licensing
+- Offline HWID Licensing
 Secure hardware-bound licensing with instant offline validation.
 
 - No internet connection.
